@@ -1,0 +1,13 @@
+1. instalar python
+2. instalar pip
+3. crear entorno virtual      	python -m venv nombre_del_entorno  
+4. activar el entorno         	nombre_del_entorno\Scripts\activate
+5. instalar django            	pip install django
+6. crear proyecto             	django-admin startproject nombreproyecto .
+7. encender servidor	      	python manage.py runserver
+
+
+django maneja todo como aplicativos, trabaja independiente y al final se puyeden acoplar al proyecto.
+
+8. crear app python manage.py startapp nombre_app                      (modulo)
+9. 
