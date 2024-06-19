@@ -1,8 +1,16 @@
+{% extends  'layouts/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
 <h1>{{ title }}</h1>
 <ul>
     <ol>
-        casa
+        <img src="{% static 'virtual.jpg'%}" widht="70">
     </ol>
 </ul>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur explicabo vel iste totam tenetur blanditiis,
     eum sint consequuntur facere, et laboriosam ut provident pariatur libero! Sequi expedita laboriosam ipsa quasi!</p>
+
+{% endblock %}
